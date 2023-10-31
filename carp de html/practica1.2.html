@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo uso del elmento div y del atributo id </title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        a:link, a:visited, a:hover, a:active{
+            color:#0f0;
+            font-family:verdana;
+        }
+        h1 {
+            background-color:rgb(241, 207, 163);
+            font-size:24px;
+        }
+        p {
+            font-size:16px;
+        }
+        ul {
+            list-style-type:none;
+        }
+        #cabecera {
+            color:#ff9;
+            background-color:rgb(241, 207, 163);
+            padding:10px;
+        }
+        #contedor {
+            margin:0 auto;
+            width:800px;
+        }
+        #contenido {
+            background-color:rgb(241, 207, 163);
+            float:left;
+            height:500px;
+            padding:10px;
+            width:560px;
+        }
+        #menu {
+            background-color:rgb(241, 207, 163);
+            float:left;
+            height:480px;
+            padding:20px;
+            width:180px;
+        }
+        #pie {
+            background-color:rgb(241, 207, 163);
+            clear:both;
+            color:#900;
+            padding:10px;
+            text-align:center;
+        } 
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="cabecera">
+            <P>PACION POR LA MUSICA</P>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">Enlace 1</a></li>
+                <li><a href="https://www.youtube.com/?gl=ES&hl=es">Enlace 2</a></li>
+                <li><a href="https://www.facebook.com/UMSAinformacion/?locale=es_LA">Enlace 3</a></li>
+            </ul>
+        </div>
+        <div id="contenido">
+            <h1>GENEROS DE MUSICA </h1>
+            <p>Parafo en el contenido de la pagina.</p>
+            <img src="disco.jpg" width="230" height="500">
+        </div>
+        <div id="pie">
+            <p>Párrafo en ek pie de la página.</p>
+        </div>
+    </div>
+</body>
+</html>
